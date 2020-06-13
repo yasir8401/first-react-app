@@ -12,6 +12,4 @@ function HelloBoldName(props) {
   );
 }
 
-HelloBoldName.propTypes = {};
-
 export default HelloBoldName;
