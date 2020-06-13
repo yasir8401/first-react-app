@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 function TaskThree({ instructorOne, instructorTwo, instructorList }) {
   return (
@@ -37,7 +36,5 @@ function TaskThree({ instructorOne, instructorTwo, instructorList }) {
     </div>
   );
 }
-
-TaskThree.propTypes = {};
 
 export default TaskThree;

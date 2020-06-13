@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+
 import "./TaskFour.css";
 
 function TaskFour(props) {
@@ -17,7 +17,5 @@ function TaskFour(props) {
 function calculateCommssion(salary) {
   return (salary * 15) / 100;
 }
-
-TaskFour.propTypes = {};
 
 export default TaskFour;
