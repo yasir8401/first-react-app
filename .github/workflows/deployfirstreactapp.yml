@@ -38,6 +38,6 @@ jobs:
       run: npm install --global surge
       
     - name: Deploy on surge
-      run: surge ./build proj002yasir.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build reactapp-yasir.surge.sh --token ${{secrets.SURGE_TOKEN}}
       
   
